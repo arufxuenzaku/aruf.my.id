@@ -1,7 +1,7 @@
 /*<![CDATA[*/
 if(Ar.gC('AR_SL')){
 
-console.log("ADA");
+console.log(Ar.gC('AR_SL'));
 
 qSel('.postBody').innerHTML += `
 <p class="note hidden" id="pWait">Mohon Tunggu...</p>
