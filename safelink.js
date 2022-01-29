@@ -1,6 +1,8 @@
 /*<![CDATA[*/
 if(Ar.gC('AR_SL')){
 
+console.log("ADA");
+
 qSel('.postBody').innerHTML += `
 <p class="note hidden" id="pWait">Mohon Tunggu...</p>
 <div class="hidden" id="decArsl" style="margin:15px 0;text-align:center"><a style="pointer-events:none;opacity:0.4;" href="#!" onclick="stC('psWait');return false;">Lanjutkan</a>
