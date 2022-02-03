@@ -1,0 +1,6 @@
+<b:if cond='!data:blog.isMobileRequest'>/*<![CDATA[*/
+/* not Mobile */ 
+.headTtl {
+    color: var(--linkC);
+}
+/*]]>*/</b:if>
