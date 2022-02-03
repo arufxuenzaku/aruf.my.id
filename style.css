@@ -1,4 +1,9 @@
-<b:if cond='!data:blog.isMobileRequest'>/*<![CDATA[*/
+/*<![CDATA[*/
+.headTtl {
+    color: red;
+}
+
+/*]]>*/<b:if cond='!data:blog.isMobileRequest'>/*<![CDATA[*/
 /* not Mobile */ 
 .headTtl {
     color: var(--linkC);
