@@ -58,5 +58,5 @@ const SVGicons = `
 `;
 
 if(qSel('#HTML888 svg')!=null){
-	qSel('#HTML888 svg').innerHTML += svgIcons;
+	qSel('#HTML888 svg').innerHTML += SVGicons;
 }
