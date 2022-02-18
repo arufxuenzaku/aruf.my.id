@@ -1,4 +1,6 @@
 /*<![CDATA[*/
+const cssBmPs=document.createElement('link');cssBmPs.rel='stylesheet';cssBmPs.type='text/css';cssBmPs.href='https://rawcdn.githack.com/arufxuenzaku/aruf.my.id/bdac061ea6da388ec3783884d8d61c942de58d57/bkmPs.css';document.head.appendChild(cssBmPs);
+
 /*nav BmPs*/qSel('#TextList000 > .headIc').insertAdjacentHTML('afterbegin', '<li class="isBkm"><label aria-label="Bookmark" class="tBkmt tIc bIc n" for="offBkm"><svg  viewBox="0 0 16 16"><use href="#Bookmark o"></use></svg></label></li>');
 
 /*content BmPs*/getid('header-icon').insertAdjacentHTML('beforeend', '<div class="cBkPs"><input class="bkmI hidden" id="offBkm" type="checkbox"/><div class="wBkm sl"><div class="bkmS fixLs"><div class="bkmH fixH fixT" data-text="Bookmark Post"><label aria-label="Close" class="c cl" for="offBkm"></label></div><div id="dBmPs" class="bkmC"></div></div></div><label class="bkmCls" for="offBkm"></label></div>');
