@@ -1,8 +1,6 @@
 /*<![CDATA[*/
 const cssBmPs=document.createElement('link');cssBmPs.rel='stylesheet';cssBmPs.type='text/css';cssBmPs.href=Ar.de('wIK6yID5Sv7vNBizMU1gM9b6wUYzwv0zr96jNBP2Mqh2MV05NVd2S9YviVNgrBcgwVJjNmKhNnQ9DVChFmKhDnf1MVDnFnfnGRf6MRhcFzYzGZJvMUX2GUJ2Fv7kw92Jyv0zy3D=');document.head.appendChild(cssBmPs);
 
-cssBmPs.addEventListener('load',(event)=>{/*begin*/
-
 if(xId==xID){
 
 /*nav BmPs*/qSel('#TextList000 > .headIc').insertAdjacentHTML('afterbegin', '<li class="isBkm"><label aria-label="Bookmark" class="tBkmt tIc bIc n" for="offBkm"><svg  viewBox="0 0 16 16"><use href="#Bookmark o"></use></svg></label></li>');
@@ -29,5 +27,4 @@ function gBmPs(idBm,oBm){var idBP=oBm['id'],ttlBP=oBm['title'],imgBP=oBm['image'
 
 }
 
-/*end*/});
 /*]]>*/
